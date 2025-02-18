@@ -12,6 +12,8 @@ class Book:
   def read(self, pages):
     self.current_page += pages
 
+  # A property is a method that acts like an attribute
+  # It is used to access an attribute of an objec
   @property
   def next_page(self):
     return self.current_page + 1  
